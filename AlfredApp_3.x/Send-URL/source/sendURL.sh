@@ -15,7 +15,7 @@ THEURL=$(echo "$THEURL" | sed -e 's/&/&amp;/g')
 URLFILEFORMAT=$(echo $THEURL | sed 's/^.*\(\.[^.]*$\)/\1/')
 URLPROTOCOL=${THEURL%"://"*}
 
-CACHEFILE=~/Library/Caches/com.runningwithcrayons.Alfred-2/Workflow\ Data/dk.aiyo.SendURL/appCache.db
+CACHEFILE=~/Library/Caches/com.runningwithcrayons.Alfred-3/Workflow\ Data/dk.aiyo.SendURL/appCache.db
 if [[ ! -f "$CACHEFILE" ]] || [[ $(stat -f "%m" supportedApplications.txt) -gt $(stat -f "%m" "$CACHEFILE") ]]
     then
     # if there is no application cache then create it

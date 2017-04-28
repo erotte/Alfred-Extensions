@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CACHEFILE=~/Library/Caches/com.runningwithcrayons.Alfred-2/Workflow\ Data/dk.aiyo.SendURL/appCache.db
+CACHEFILE=~/Library/Caches/com.runningwithcrayons.Alfred-3/Workflow\ Data/dk.aiyo.SendURL/appCache.db
 
 # if the database exists, remove it
 if [[ -f "$CACHEFILE" ]]
